@@ -1,7 +1,7 @@
 h1, h3{
-    color: steelblue;
-    
+    color: steelblue;    
 }
+
 h1{
     font-size: 40px;
 }
@@ -9,7 +9,6 @@ h1{
 .Professional_Summary{
     text-align: justify;
 }
-
 
 button{
     background-color:bisque;
@@ -24,7 +23,7 @@ button:hover{
 .profile-pic{
     width: 200px;
     height: 200px;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 50%;
