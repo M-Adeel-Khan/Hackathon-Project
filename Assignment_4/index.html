@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 4</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form id="form">
+        <fieldset>
+            <legend>PERSONAL DETAILS:</legend>
+            <label>Name: <input type="text" maxlength="30" required placeholder="Enter your name" id="Name"> </label>
+            <label>Address: <input type="text" maxlength="80" required placeholder="Enter your address" id="Add"> </label>
+            <label>Cell No.: <input type="text" maxlength="15" required placeholder="Enter your cell No." id="Cell"> </label>
+            <label>Email: <input type="email" maxlength="30" required placeholder="Enter your Email" id="Email"> </label>
+        </fieldset>
+        
+        <br />
+        
+        <fieldset>
+            <legend>EXPERIENCE:</legend>
+            <label>Organization Name: <input type="text" maxlength="50" required placeholder="Enter Organization name" id="Org1"> </label>
+            <label>Designation: <input type="text" maxlength="50" required placeholder="Enter your Designation" id="Desig1"> </label> 
+            <label>Work From: <input type="date" id="SD1" required> </label>  
+            <label>To: <input type="date" id="ED1" required> </label>    
+            
+            <br>       
+            
+            <label>Organization Name: <input type="text" maxlength="50" required placeholder="Enter Organization name" id="Org2"> </label>
+            <label>Designation: <input type="text" maxlength="50" required placeholder="Enter your Designation" id="Desig2"> </label> 
+            <label>Work From: <input type="date" id="SD2" required> </label>  
+            <label>To: <input type="date" id="ED2" required> </label>    
+
+            <br>       
+            
+            <label>Organization Name: <input type="text" maxlength="50" required placeholder="Enter Organization name" id="Org3"> </label>
+            <label>Designation: <input type="text" maxlength="50" required placeholder="Enter your Designation" id="Desig3"> </label> 
+            <label>Work From: <input type="date" id="SD3" required> </label>  
+            <label>To: <input type="date" id="ED3" required> </label>  
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>EDUCATION:</legend>
+            <label>University/College/School Name: <input type="text" maxlength="50" required placeholder="Enter Uni/College/Sch Name" id="Uni1"> </label>
+            <label>Degree Name: <input type="text" maxlength="30" required placeholder="Enter your Degree" id="Deg1"> </label>     
+            <label>Passing Year: <input type="text" maxlength="4" required placeholder="Enter Passing Year" id="PY1"> </label>
+            <br>       
+            
+            <label>University/College/School Name: <input type="text" maxlength="50" required placeholder="Enter Uni/College/Sch Name" id="Uni2"> </label>
+            <label>Degree Name: <input type="text" maxlength="30" required placeholder="Enter your Degree" id="Deg2"> </label> 
+            <label>Passing Year: <input type="text" maxlength="4" required placeholder="Enter Passing Year" id="PY2"> </label>
+
+            <br>       
+            
+            <label>University/College/School Name: <input type="text" maxlength="50" required placeholder="Enter Uni/College/Sch Name" id="Uni3"> </label>
+            <label>Degree Name: <input type="text" maxlength="30" required placeholder="Enter your Degree" id="Deg3"> </label> 
+            <label>Passing Year: <input type="text" maxlength="4" required placeholder="Enter Passing Year" id="PY3"> </label>  
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>SKILLS:</legend>
+            <label>Skill - 1: <input type="text" maxlength="10" required placeholder="Enter Skill" id="Sk1"> </label>
+            <label>Skill - 2: <input type="text" maxlength="10" required placeholder="Enter Skill" id="Sk2"> </label>
+            <label>Skill - 3: <input type="text" maxlength="10" required placeholder="Enter Skill" id="Sk3"> </label>
+            <label>Skill - 4: <input type="text" maxlength="10" required placeholder="Enter Skill" id="Sk4"> </label>
+            
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Click to Generate Resume</button> 
+
+        </form>
+        
+        <br>
+        <div id="show_res" contenteditable="true"></div>
+        <script src="main.js"></script>
+        
+</body>
+</html>
